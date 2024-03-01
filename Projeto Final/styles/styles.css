@@ -1,0 +1,38 @@
+#head-tittle{
+    position: absolute;
+    /* border: 1px solid black;
+    background-color: blueviolet; */
+    margin-left: 700px;
+}
+
+#formulario{
+    display: inline-grid;
+    margin-left: 690px;
+    margin-top: 60px;
+    /* background: #999; */
+    width: 290px;
+    height: 280px;
+}
+#formulario label{
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#formulario input{
+    position: relative;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+#formulario select{
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 4px;
+}
