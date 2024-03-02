@@ -1,19 +1,29 @@
+
 #head-tittle{
     position: absolute;
-    /* border: 1px solid black;
-    background-color: blueviolet; */
-    margin-left: 700px;
+    margin-left: 800px;
+}
+
+#dados{
+    display: inline-grid;
+    margin-left: 39px;
+    margin-top: -40px;
+    align-items: center;
+
 }
 
 #formulario{
     display: inline-grid;
     margin-left: 690px;
     margin-top: 60px;
-    /* background: #999; */
-    width: 290px;
-    height: 280px;
+    border: 1px solid black;
+    width: 370px;
+    height: 360px;
+    padding: 50px;
 }
+
 #formulario label{
+    margin-right: 35px;
     text-align: center;
     font-size: 18px;
     font-style: normal;
@@ -26,13 +36,51 @@
     height: 30px;
     text-align: center;
     border: 1px solid red;
-    border-radius: 4px;
+    border-radius: 15px;
+    margin-left: 5px;
 }
 
+
 #formulario select{
-    width: 280px;
+    width: 130px;
     height: 30px;
     text-align: center;
     border: 1px solid red;
-    border-radius: 4px;
+    border-radius: 15px;
+    margin-left: 95px;
+}
+
+#buttons{
+  position: absolute;
+  margin-left: 775px;
+  padding: 15px;
+  letter-spacing: 20px;
+}
+
+#btn-limpar{
+    background-color: #fff;
+    width: 135px;
+    height: 42px;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btn-limpar:active{
+    background-color: #fc8787;
+}
+
+#btn-cadastrar{
+    background-color: #fff;
+    width: 135px;
+    height: 42px;
+    border: 1px solid red;
+    border-radius: 15px;;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btn-cadastrar:active{
+    background-color: #fc8787;
 }
