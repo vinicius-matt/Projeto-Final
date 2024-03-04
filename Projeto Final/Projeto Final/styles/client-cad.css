@@ -1,0 +1,25 @@
+#client-cad{
+    margin-top: 80px;
+    margin-left: 175px;
+}
+
+#table-Client th{
+   position: relative;
+   border: 2px solid rgb(255, 0, 0);
+   width: 200px;
+   height:20px;
+   padding: 10px;
+   border-radius: 10px;
+   left: 160px;
+}
+
+#table-Client td{
+    position: relative;
+    border: 2px solid rgb(255, 0, 0);
+    width: 200px;
+    height:20px;
+    padding: 10px;
+    border-radius: 10px;
+    left: 160px;
+    text-align: center;
+}
