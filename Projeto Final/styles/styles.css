@@ -1,3 +1,21 @@
+#horas{
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 685px;
+    width: 90px;
+    text-align: center;
+    height: 20px;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 5px;
+}
+
+#horas:hover{
+    background-color: #fc8787;
+}
+
 
 #head-tittle{
     position: absolute;
